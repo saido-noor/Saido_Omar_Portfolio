@@ -101,7 +101,7 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 rounded-full blur-sm opacity-75 animate-pulse"></div>
                   <div className="relative w-full h-full bg-white/10 rounded-full backdrop-blur-sm border-4 border-white/30 overflow-hidden shadow-2xl">
                     <img 
-                      src="/public/images/saido.png" 
+                      src="/images/saido.png" 
                       alt="Professional Profile"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     />
