@@ -49,7 +49,7 @@ const Contact = () => {
           
           <div className="space-y-4">
             <a 
-              href="https://www.upwork.com" 
+              href="https://www.upwork.com/freelancers/~01c56f13ba4631cbd9?mp_source=share" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-colors duration-300 mr-4"

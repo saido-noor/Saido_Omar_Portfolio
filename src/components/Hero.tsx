@@ -43,16 +43,50 @@ const Hero = () => {
               
               {/* Social links */}
               <div className="flex gap-4 justify-center md:justify-start pt-4">
+  <a 
+    href="saidoomarnoor@gmail.com" 
+    className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Mail className="w-5 h-5" />
+  </a>
+  <a 
+    href="https://github.com/saido-noor" 
+    className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Github className="w-5 h-5" />
+  </a>
+  <a 
+    href="https://ke.linkedin.com/in/saido-omar-b5b6b6216" 
+    className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Linkedin className="w-5 h-5" />
+  </a>
+</div>
+              {/* <div className="flex gap-4 justify-center md:justify-start pt-4">
                 <button className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110">
+                  <a href="#"></a>
                   <Mail className="w-5 h-5" />
                 </button>
                 <button className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110">
+                  <a 
+                  href="https://github.com/saido-noor" 
+                  className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
                   <Github className="w-5 h-5" />
                 </button>
                 <button className="p-3 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110">
+                  <a href="https://ke.linkedin.com/in/saido-omar-b5b6b6216"></a>
                   <Linkedin className="w-5 h-5" />
                 </button>
-              </div>
+              </div> */}
             </div>
             
             {/* Right side - Profile image */}
@@ -67,7 +101,7 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 rounded-full blur-sm opacity-75 animate-pulse"></div>
                   <div className="relative w-full h-full bg-white/10 rounded-full backdrop-blur-sm border-4 border-white/30 overflow-hidden shadow-2xl">
                     <img 
-                      src="/lovable-uploads/71fb7e13-fcf9-453e-a458-34031cc4d1fd.png" 
+                      src="/public/images/saido.png" 
                       alt="Professional Profile"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     />

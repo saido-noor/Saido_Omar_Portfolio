@@ -24,7 +24,7 @@ const Projects = () => {
       subtitle: "Non-Profit Organization Platform",
       description: "Impactful website created for a refugee organization in Kakuma, showcasing their empowerment work and community initiatives. Designed to raise awareness and facilitate support for their important mission.",
       technologies: ["React", "Non-Profit", "Community Impact"],
-      link: "#",
+      link: "https://github.com/saido-noor/girlpoweraction.git",
       category: "Non-Profit"
     }
   ];
